@@ -1,0 +1,196 @@
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+.banner-img-container {
+    background-image: url("../images/people\ around\ table.jpeg");
+    height: 120vh;
+    width: 100%;
+    padding: 45px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-text1 span {
+    font-size: 50px;
+    font-weight: bolder !important;
+    line-height: 26px;
+}
+
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bolder !important;
+}
+
+
+/* section-plan */
+
+.section-pan {
+    /* height: 50vh; */
+    padding-bottom: 30px;
+}
+
+.section-text span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.img-container {
+    background-image: url("../images/hall.jpeg");
+    height: 70vh;
+    width: 100%;
+    padding: 45px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* section-2 */
+
+.section-tag {
+    position: relative;
+    height: 280px;
+}
+
+.container-history {
+    position: absolute;
+    top: -208px;
+    z-index: 3;
+}
+
+.card-img-top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* section-3 */
+
+.section-banner {
+    color: #111111;
+    background-color: #f2f2f2;
+}
+
+.banner-text-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-via-top span {
+    line-height: 1.1;
+    margin-top: 20px;
+}
+
+.banner-text-text h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.banner-text-text span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+
+/* section-4 */
+
+.section-span {
+    height: 60vh;
+}
+
+.banner-text-img {
+    background-image: url("../images/bulb.jpeg");
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner-text {
+    padding-top: 10%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    color: #f2f2f2;
+}
+
+.banner-text span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+
+/* section-5 */
+
+.our-blog-tag {
+    position: relative;
+    height: 70vh;
+}
+
+.text-container h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: black;
+    align-items: center;
+}
+
+.img-img-container {
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.footer-section {
+    color: #111111;
+    background-color: #f2f2f2;
+}
+
+.footer-section img {
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    .section-tag {
+        height: fit-content;
+    }
+    .container-history {
+        position: unset;
+        top: 0;
+        z-index: unset;
+    }
+    .footer-section {
+        min-height: 103px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+}
